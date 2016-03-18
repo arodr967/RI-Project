@@ -1,29 +1,26 @@
-# Responsive Images: Project Part 1 #
+#Udacity Responsive Images course#
 
-## Your Goals: ##
+This is a repository for files used in the forthcoming Udacity Responsive Images course.
 
-* Make the images fit in their containers in the viewport.
-* Restrain the width of the blog.
-* Drop the page weight.
+##Project##
 
-## How you know you're done ##
+Code for solutions to each stage of the course project is available from the repo's [project directory](https://github.com/udacity/responsive-images/tree/master/project).
 
-A code will appear in the Udacity Feedback. Paste the code in to the Udacity classroom to complete the quiz!
+View each of the project steps live at [udacity.github.io/responsive-images/project](http://udacity.github.io/responsive-images/project).
 
-[More on the Udacity Front-End Grading Engine](https://github.com/udacity/frontend-grading-engine)
+##Examples##
 
-## Current Problems with the Page ##
+Code for these examples is available from the repo's [examples directory](https://github.com/udacity/responsive-images/tree/master/examples).
 
-* The text is readable, but the images overflow the viewport.
-* Page weight is massive: the images have been saved as JPEGs at low quality, but they're still too big.
-* The headings, body text and images are not styled, making the post hard to read and dull to look at.
+View examples live at [udacity.github.io/responsive-images](http://udacity.github.io/responsive-images/). (This is the [GitHub Pages](https://pages.github.com) site that corresponds to the gh-pages branch of the repo.)
 
-## General Advice ##
+##Reflections##
+###Part 1###
 
-Check the page with the Chrome Dev Tools:
+*Using Windows for this project.*
 
-* Open the tools, open the Network tab, reload the page and look at the number of requests, total transfer size and time to load.
-* Change to device emulation mode by clicking the phone icon in the Dev Tools (at the top left next to the magnifying glass icon). Try the various throttling options to emulate a GPRS mobile phone cell connection -- now look at the Network tab. The page takes several minutes to complete loading. (Remember that studies by Amazon, Google and others show an increased drop off in revenue with delays of less than 0.1 seconds!) Even with a good DSL connection, load time is still over 10 seconds.
-* Try out emulation on different devices, portrait and landscape (click the icon next to the dimensions). What problems do you notice with each image? Which ones look worse?
+The only difficult part about this was resizing and compressing the images. I was having trouble running the grunt commands because I kept getting this error:
 
-Check the page from Page Speed Insights -- lots more problems!
+![error](error.PNG)
+
+This was happening because I was running the command on git bash. The solution was to run this on the command prompt instead.
