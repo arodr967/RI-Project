@@ -12,11 +12,15 @@ I've left some boilerplate below for you.
 
 */
 
-body {}
+body {
+	font-family: sans-serif;
+}
 article {
     width: 50em;
 }
-h1 {}
+h1 {
+	font-style: italic;
+}
 img {
     max-width: 100%;
 }

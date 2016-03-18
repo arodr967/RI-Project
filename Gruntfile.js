@@ -4,6 +4,8 @@
   "grunt" alone creates a new, completed images directory
   "grunt clean" removes the images directory
   "grunt responsive_images" re-processes images without removing the old ones
+
+  NEED TO RUN THIS COMMAND ON COMMAND PROMPT ON WINDOWS INSTEAD OF GIT BASH
 */
 
 module.exports = function(grunt) {
